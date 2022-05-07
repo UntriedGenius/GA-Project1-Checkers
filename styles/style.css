@@ -103,6 +103,10 @@ section .board {
   max-height: 64px;
   max-width: 64px;
 }
+.square2 a .red {
+  max-height: 80px;
+  max-width: 80px;
+}
 
 .square2 a .dot {
   max-height: 10px;
