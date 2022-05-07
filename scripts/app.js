@@ -171,9 +171,8 @@ board.addEventListener('click', function(e) {
     dots[6].style.opacity = "1"
     dots[7].style.opacity = "1"
   console.log(e.target)
-   } //if (e.target === dots[0]){
-  // .appendChild('.selected')
-  // }
+   } 
+   // 2. Move Piece 
   if (e.target === dots[0]){
     // let selected = document.querySelector('.selected')
     // tes.appendChild(selected)
@@ -264,11 +263,8 @@ board.addEventListener('click', function(e) {
   //   document.getElementsByClassName('dot').appendChild('.selected')
   // }
  })
- console.log(blkArr[4]);
- console.log(dots[4]);
  // 2. Move Piece 
-  //   document.getElementsByClassName('empty').appendChild('selected')
-  // }
+
 
 // recognize player turns
 // Disable movement for any pieces whoes turn it is Not.
