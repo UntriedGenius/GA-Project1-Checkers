@@ -20,7 +20,7 @@ let moveDot2 =  document.getElementById('full2')
 
 let dot = document.querySelector('.dot')
 let dots = document.querySelectorAll('.dot')
-
+let record = document.getElementById("logc")
 
 let board = document.querySelector('.board')
 console.log(board);
@@ -221,6 +221,10 @@ board.addEventListener('click', function(e) {
     moveDot.appendChild(moving)
     e.target.classList.remove('moving')
     console.log(e.target);
+    let newEl = document.createElement('li')
+    record.appendChild(newEl)
+    newEl.innerText = 'C1 to D2'
+
 
     dots[4].style.opacity = "0"
     dots[5].style.opacity = "0"
@@ -448,6 +452,9 @@ board.addEventListener('click', function(e) {
     moveDot2.appendChild(moving)
     e.target.classList.remove('moving')
     console.log(e.target);
+    let newEl = document.createElement('li')
+    record.appendChild(newEl)
+    newEl.innerText = 'F8 to E7'
     dots[0].style.opacity = "0"
     dots[1].style.opacity = "0"
     dots[2].style.opacity = "0"
