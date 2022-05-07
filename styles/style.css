@@ -23,6 +23,10 @@ header h1 {
   text-align: center;
 }
 
+header h1 span {
+  color: rgba(17, 223, 238, 0.973);
+}
+
 div {
   /* border: blue solid 1px; */
   padding: 10px;
@@ -35,29 +39,6 @@ div {
   height: 640px;
 }
 
-/* .counter {
-  border: orange solid 1px;
-  width: 200px;
-  height: 200px;
-  display: flex;
-} */
-
-/* .counter li {
-  border: purple solid 1px;
-  font-size: 100px;
-  list-style: none;
-  max-width: 100px;
-  max-height: 100px;
-  padding: 2px;
-  margin: 2px;
-  -ms-flex-align: center;
-  justify-content: space-between;
-}
-
-.counter li img {
-  max-width: 100px;
-  max-height: 100px;
-} */
 /* Counter */
 .counter img {
   max-width: 50px;
@@ -128,10 +109,6 @@ section .board {
   max-width: 20px;
   opacity: 0.5;
 }
-/* .square2 a {
-  max-height: 64px;
-  max-width: 64px;
-} */
 
 /* Log */
 #log {
@@ -140,7 +117,6 @@ section .board {
   align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
-  /* border: blue solid 1px; */
   /* border: blue solid 1px; */
   margin: 0;
   padding: 0;
@@ -154,7 +130,7 @@ section .board {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 25%;
+  width: 10rem;
   height: 590px;
   background: black;
   color: #fff;
@@ -171,7 +147,7 @@ section .board {
   text-align: center;
   border: solid #fff 1px;
   border-top: none;
-  width: 25%;
+  width: 10rem;
   background: black;
   color: #fff;
 }

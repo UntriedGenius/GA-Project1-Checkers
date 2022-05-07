@@ -8,18 +8,18 @@ let redPieces = document.querySelectorAll(".red");
 let redArr = Array.from(redPieces);
 
 
-// let blkpieces = document ('.black');
 let blkPieces = document.querySelectorAll('.black');
 let blkArr = Array.from(blkPieces);
 console.log(redArr);
 console.log(blkArr);
 
 let tes = document.getElementById('space')
+let tes2 = document.getElementById('space2')
 let moveDot =  document.getElementById('full')
+let moveDot2 =  document.getElementById('full2')
 
 let dot = document.querySelector('.dot')
 let dots = document.querySelectorAll('.dot')
-// let dots = Array.from(preDots);
 
 
 let board = document.querySelector('.board')
@@ -28,7 +28,6 @@ console.log(board);
 // 1. Select a piece
 board.addEventListener('click', function(e) {
   if (e.target === blkArr[0]){
-
   e.target.classList.add('selected')
     // dots[0].style.opacity = "1"
     // dots[1].style.opacity = "1"
@@ -263,8 +262,244 @@ board.addEventListener('click', function(e) {
   //   document.getElementsByClassName('dot').appendChild('.selected')
   // }
  })
- // 2. Move Piece 
 
+ board.addEventListener('click', function(e) {
+  if (e.target === redArr[0]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[1]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[2]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[3]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[4]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[5]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[6]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[7]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[8]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[9]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[10]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+  }
+  if (e.target === redArr[11]){
+  e.target.classList.add('selected')
+    dots[0].style.opacity = "1"
+    dots[1].style.opacity = "1"
+    dots[2].style.opacity = "1"
+    dots[3].style.opacity = "1"
+    // dots[4].style.opacity = "1"
+    // dots[5].style.opacity = "1"
+    // dots[6].style.opacity = "1"
+    // dots[7].style.opacity = "1"
+  console.log(e.target)
+   } 
+   // 2. Move Piece 
+  if (e.target === dots[0]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    console.log(e.target);
+  }
+  if (e.target === dots[1]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    console.log(e.target);
+  }
+  if (e.target === dots[2]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    console.log(e.target);
+  }
+  if (e.target === dots[3]){
+    let selected = document.querySelector('.selected')
+    tes2.appendChild(selected)
+    selected.classList.remove('selected')
+    e.target.classList.add('moving')
+    let moving = document.querySelector('.moving')
+    moveDot2.appendChild(moving)
+    e.target.classList.remove('moving')
+    console.log(e.target);
+    dots[0].style.opacity = "0"
+    dots[1].style.opacity = "0"
+    dots[2].style.opacity = "0"
+    dots[3].style.opacity = "0"
+  }
+  if (e.target === dots[4]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    // console.log(e.target);
+
+ 
+  }
+  if (e.target === dots[5]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    // console.log(e.target);
+  }
+  if (e.target === dots[6]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    // console.log(e.target);
+  }
+  if (e.target === dots[7]){
+    // let selected = document.querySelector('.selected')
+    // tes.appendChild(selected)
+    // selected.classList.remove('selected')
+    // e.target.classList.add('moving')
+    // let moving = document.querySelector('.moving')
+    // moveDot.appendChild(moving)
+    // e.target.classList.remove('moving')
+    // console.log(e.target);
+  }
+  
+  // if (e.target.classList.contains('dot')){
+  //   document.getElementsByClassName('dot').appendChild('.selected')
+  // }
+ })
 
 // recognize player turns
 // Disable movement for any pieces whoes turn it is Not.
