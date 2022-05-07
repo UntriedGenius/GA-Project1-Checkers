@@ -20,7 +20,7 @@ let moveDot2 =  document.getElementById('full2')
 
 let dot = document.querySelector('.dot')
 let dots = document.querySelectorAll('.dot')
-
+let record = document.getElementById("logc")
 
 let board = document.querySelector('.board')
 console.log(board);
