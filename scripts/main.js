@@ -29,10 +29,6 @@ console.log(board);
 board.addEventListener('click', function(e) {
   if (e.target === blkArr[0]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -41,10 +37,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[1]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -53,10 +45,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[2]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -65,10 +53,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[3]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -77,10 +61,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[4]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -89,10 +69,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[5]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -101,10 +77,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[6]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -113,10 +85,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[7]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -125,10 +93,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[8]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -137,10 +101,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[9]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -149,11 +109,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[10]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
-    dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
     dots[7].style.opacity = "1"
@@ -161,10 +116,6 @@ board.addEventListener('click', function(e) {
   }
   if (e.target === blkArr[11]){
   e.target.classList.add('selected')
-    // dots[0].style.opacity = "1"
-    // dots[1].style.opacity = "1"
-    // dots[2].style.opacity = "1"
-    // dots[3].style.opacity = "1"
     dots[4].style.opacity = "1"
     dots[5].style.opacity = "1"
     dots[6].style.opacity = "1"
@@ -273,11 +224,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+   console.log(e.target)
   }
   if (e.target === redArr[1]){
   e.target.classList.add('selected')
@@ -285,11 +232,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+   console.log(e.target)
   }
   if (e.target === redArr[2]){
   e.target.classList.add('selected')
@@ -297,11 +240,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+   console.log(e.target)
   }
   if (e.target === redArr[3]){
   e.target.classList.add('selected')
@@ -309,11 +248,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[4]){
   e.target.classList.add('selected')
@@ -321,11 +256,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[5]){
   e.target.classList.add('selected')
@@ -333,11 +264,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[6]){
   e.target.classList.add('selected')
@@ -345,11 +272,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[7]){
   e.target.classList.add('selected')
@@ -357,11 +280,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[8]){
   e.target.classList.add('selected')
@@ -369,11 +288,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[9]){
   e.target.classList.add('selected')
@@ -381,11 +296,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[10]){
   e.target.classList.add('selected')
@@ -393,11 +304,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
   }
   if (e.target === redArr[11]){
   e.target.classList.add('selected')
@@ -405,11 +312,7 @@ board.addEventListener('click', function(e) {
     dots[1].style.opacity = "1"
     dots[2].style.opacity = "1"
     dots[3].style.opacity = "1"
-    // dots[4].style.opacity = "1"
-    // dots[5].style.opacity = "1"
-    // dots[6].style.opacity = "1"
-    // dots[7].style.opacity = "1"
-  console.log(e.target)
+    console.log(e.target)
    } 
    // 2. Move Piece 
   if (e.target === dots[0]){
