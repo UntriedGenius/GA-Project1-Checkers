@@ -11,8 +11,12 @@
   --squarWidth: 10px;
 }
 
+body {
+  background: #86709c;
+}
+
 header {
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 header h1 {
@@ -25,7 +29,7 @@ div {
 }
 
 .container {
-  border: cyan solid 1px;
+  /* border: cyan solid 1px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 640px;
@@ -65,17 +69,22 @@ div {
   height: 640px;
   align-items: flex-end;
   justify-content: flex-end;
-  border: blue solid 1px;
+  /* border: blue solid 1px; */
+  padding: 0px;
+  margin: 0px;
 }
 
 .counter {
-  border: purple solid 1px;
+  /* border: purple solid 1px; */
   font-size: 50px;
   list-style: none;
   max-width: 100px;
   max-height: 100px;
-  padding: 2px;
-  margin: 2px;
+  padding: 0px;
+  margin: 0px;
+  background: black;
+  color: #fff;
+  border: solid #fff 1px;
 }
 
 /* Board */
@@ -84,7 +93,7 @@ section .board {
   flex-wrap: wrap;
   width: var(--board);
   height: var(--board);
-  border: green solid 0px;
+  /* border: green solid 0px; */
   margin: 0px;
   padding: 0;
   align-content: center;
@@ -109,14 +118,20 @@ section .board {
   justify-content: center;
 }
 
-.square2 img {
+.square2 a img {
   max-height: 64px;
   max-width: 64px;
 }
 
-.square2 img :hover {
-  background: blue;
+.square2 a .dot {
+  max-height: 10px;
+  max-width: 20px;
+  opacity: 0.5;
 }
+/* .square2 a {
+  max-height: 64px;
+  max-width: 64px;
+} */
 
 /* Log */
 #log {
@@ -125,13 +140,16 @@ section .board {
   align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
-  border: blue solid 1px;
+  /* border: blue solid 1px; */
+  /* border: blue solid 1px; */
   margin: 0;
   padding: 0;
 }
 
 .log {
-  border: solid blue 1px;
+  /* border: solid blue 1px; */
+  border: solid #fff 1px;
+  border-bottom: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -140,6 +158,8 @@ section .board {
   height: 590px;
   background: black;
   color: #fff;
+  padding: 0px;
+  margin: 0px;
 }
 
 .log li {
@@ -149,14 +169,24 @@ section .board {
 
 .logp {
   text-align: center;
-  border: solid blue 1px;
+  border: solid #fff 1px;
+  border-top: none;
   width: 25%;
+  background: black;
+  color: #fff;
 }
 
 .log h2 {
+  border: solid #fff 1px;
+  text-align: center;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  width: 100%;
   margin-bottom: 15px;
+  margin-top: 0px;
 }
 
 .logp p {
-  font-size: 50px;
+  font-size: 100%;
 }
